@@ -1,0 +1,76 @@
+/* dashboard.css */
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.result_container {
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+
+.search-results {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.search-results table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.search-results th,
+.search-results td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.search-results th {
+  background-color: #f4f4f4;
+}
+
+.search-results tr:hover {
+  background-color: #f1f1f1;
+}
+
+.highlight_cell {
+  background-color: #d1e7dd !important;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.controls label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.controls .item_bar {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.chart_heading {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.loading {
+  margin: 20px;
+  font-size: 1.2em;
+  color: #888;
+}
